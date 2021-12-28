@@ -1,0 +1,26 @@
+[tool.black]
+line-length = 119
+
+[tool.isort]
+profile = "black"
+line_length = 119
+
+[tool.poetry]
+name = "python-dev-template"
+version = "0.1.0"
+description = ""
+authors = ["reppets <all.you.need.is.word@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "3.10.*"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.5"
+black = "^21.12b0"
+flake8 = "^4.0.1"
+isort = "^5.10.1"
+pytest-cov = "^3.0.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

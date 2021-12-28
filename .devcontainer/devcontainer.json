@@ -1,0 +1,7 @@
+{
+    "dockerFile": "Dockerfile",
+    "extensions": [
+        "ms-python.python",
+        "ryanluker.vscode-coverage-gutters"
+    ]
+}
